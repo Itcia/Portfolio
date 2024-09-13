@@ -5,7 +5,7 @@
     box-sizing: border-box;
 }
 
-/* body styling */
+/* Basic body styling */
 body {
     font-family: Arial, sans-serif;
     background-color: #f4f4f4;
@@ -21,7 +21,7 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 12000px;
+    max-width: 1200px; /* Aumentar el ancho del menú */
     margin: 0 auto;
 }
 
@@ -43,8 +43,8 @@ nav {
 .menu a {
     color: #fff;
     text-decoration: none;
-    font-size: 14px;
-    font-weight: normal;
+    font-size: 16px; /* Reducir el tamaño de las letras */
+    font-weight: normal; /* Quitar el negrita */
 }
 
 .menu a:hover {
