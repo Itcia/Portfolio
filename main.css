@@ -51,18 +51,50 @@ nav {
     color: #f0a500;
 }
 
-/* Main section styling */
-main {
-    padding: 20px;
-    text-align: center;
+/* Introduction Section Styles */
+.introduction {
+    background-color: aqua;
+    padding: 50px;
+    display: flex;
+    justify-content: flex-start; /* Align text slightly to the left */
 }
 
-h2 {
-    font-size: 36px;
+.intro-content {
+    max-width: 600px; /* Restrict width */
+}
+
+.intro-content p {
     margin-bottom: 10px;
+    text-align: left; /* Align all text to the left */
 }
 
-p {
-    font-size: 18px;
-    color: #333;
+.hello {
+    font-size: 32px;
+    font-weight: normal;
 }
+
+.name {
+    font-size: 64px;
+    font-weight: bold;
+}
+
+.designer, .location, .positions {
+    font-size: 24px;
+    font-weight: normal;
+}
+
+.see-works {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: transparent;
+    border: 2px solid black;
+    font-size: 18px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.see-works:hover {
+    background-color: black;
+    color: white;
+}
+Explicación:
