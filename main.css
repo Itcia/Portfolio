@@ -21,6 +21,8 @@ nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    max-width: 12000px;
+    margin: 0 auto;
 }
 
 .logo h1 {
@@ -41,8 +43,8 @@ nav {
 .menu a {
     color: #fff;
     text-decoration: none;
-    font-size: 18px;
-    font-weight: bold;
+    font-size: 14px;
+    font-weight: normal;
 }
 
 .menu a:hover {
