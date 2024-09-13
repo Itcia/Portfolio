@@ -53,7 +53,7 @@ nav {
 
 /* Introduction Section Styles */
 .introduction {
-    background-color: aqua;
+    background-color: rgb(30, 154, 137);
     padding: 50px;
     display: flex;
     justify-content: flex-start; /* Align text slightly to the left */
