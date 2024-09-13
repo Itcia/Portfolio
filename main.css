@@ -14,14 +14,14 @@ body {
 /* Header and Navigation Styles */
 header {
     background-color: #000;
-    padding: 10px 20px;
+    padding: 20px 20px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px; /* Aumentar el ancho del menú */
+    max-width: 1200px;
     margin: 0 auto;
 }
 
@@ -43,8 +43,8 @@ nav {
 .menu a {
     color: #fff;
     text-decoration: none;
-    font-size: 16px; /* Reducir el tamaño de las letras */
-    font-weight: normal; /* Quitar el negrita */
+    font-size: 16px; 
+    font-weight: normal; 
 }
 
 .menu a:hover {
