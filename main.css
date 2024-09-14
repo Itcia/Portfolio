@@ -156,3 +156,15 @@ nav {
     background-color: rgb(190, 61, 120);
     
 }
+
+/* Image Section Styles */
+.project-image {
+    display: flex;
+    justify-content: center; /* Centrar horizontalmente */
+    margin-top: 40px; /* Espacio superior respecto al botón */
+}
+
+.project-image img {
+    max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+}
