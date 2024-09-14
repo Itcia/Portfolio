@@ -50,7 +50,12 @@ nav {
 .menu a:hover {
     color: #f0a500;
 }
-
+/* Añadir un margen lateral consistente para logo y contenido */
+nav, .introduction {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
 /* Introduction Section Styles */
 .introduction {
     background-color: rgb(169, 228, 210);
