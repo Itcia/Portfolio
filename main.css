@@ -1,6 +1,6 @@
 /* General Styles */
 body {
-    background-color: white; /* Fondo blanco para todo */
+    background-color: rgb(255, 255, 255); /* Fondo blanco para todo */
 }
 /* Reset some default margins and paddings */
 * {
