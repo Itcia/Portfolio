@@ -54,8 +54,7 @@ nav {
 .introduction {
     background-color: rgb(169, 228, 210);
     padding: 50px;
-    max-width: 1200px; /* Fijar el ancho máximo */
-    margin: 0 auto; /* Centrar el contenedor */
+    width: 100%;
 }
 
 .intro-content {
@@ -67,19 +66,6 @@ nav {
 .intro-content p {
     margin-bottom: 10px;
     text-align: left; /* Align all text to the left */
-}
-
-/* Eliminar márgenes y asegurar que las imágenes ocupen el ancho completo */
-.project-image {
-    width: 100vw; /* Ocupa todo el ancho de la ventana */
-    margin: 0; /* Elimina márgenes */
-    padding: 0; /* Elimina padding */
-}
-
-.project-image img {
-    width: 100%; /* Las imágenes ocuparán el 100% del ancho de su contenedor */
-    height: auto; /* Mantén la proporción de las imágenes */
-    display: block; /* Evita el espacio en blanco debajo de las imágenes */
 }
 
 .hello {
@@ -132,8 +118,6 @@ body {
 .main-content {
     background-color: white;
     padding: 20px;
-    max-width: 1200px; /* Mismo max-width que el contenedor de la introducción */
-    margin: 0 auto; /* Centrar el contenedor horizontalmente */
 }
 
 
