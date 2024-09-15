@@ -121,10 +121,6 @@ body {
     padding: 20px;
 }
 
-/* Image Section Margin */
-.project-image {
-    margin-bottom: 50px; /* Ajusta este valor según lo que necesites */
-}
 
 /* Project Info Section */
 .project-info {
@@ -132,7 +128,7 @@ body {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
-    margin-top: 40px;
+    margin-top: 50px;
 }
 
 .left-info .project-title {
