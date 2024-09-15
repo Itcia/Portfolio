@@ -68,6 +68,14 @@ nav {
     text-align: left; /* Align all text to the left */
 }
 
+.project-image-img {
+    width: 100%; /* Adjust image to full width of its container */
+    max-width: 1200px; /* Ensure image does not exceed the width of the introduction section */
+    height: auto; /* Maintain aspect ratio */
+    display: block; /* Remove bottom space */
+    margin: 0 auto; /* Center image horizontally */
+}
+
 .hello {
     font-size: 32px;
     font-weight: normal;
