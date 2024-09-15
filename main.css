@@ -50,16 +50,6 @@ nav {
     color: #f0a500;
 }
 
-/* General Styles */
-body {
-    background-color: white; /* Fondo blanco para todo */
-}
-
-.main-content {
-    background-color: white;
-    padding: 20px;
-}
-
 
 /* Introduction Section Styles */
 .introduction {
@@ -120,6 +110,17 @@ body {
     font-size: 64px;
     font-weight: bold;
 }
+
+/* General Styles */
+body {
+    background-color: white; /* Fondo blanco para todo */
+}
+
+.main-content {
+    background-color: white;
+    padding: 20px;
+}
+
 /* Project Info Section */
 .project-info {
     display: flex;
