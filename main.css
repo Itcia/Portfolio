@@ -162,6 +162,11 @@ nav {
     
 }
 
+/* Spacer for added distance between Design Sprint and image */
+.spacer-large {
+    height: 80px; /* Mayor espacio entre Design Sprint y la imagen */
+}
+
 /* Image Section Styles */
 .project-image {
     display: flex;
@@ -180,68 +185,7 @@ nav {
 }
 
 
-/* Contact Me Section */
-.contact-me {
-    margin-top: 60px; /* Espacio adicional arriba */
-    text-align: center;
-}
-
-.contact-container {
-    background-color: #f9f9f9;
-    padding: 30px;
-    border: 1px solid black; /* Contorno negro sencillo */
-    border-radius: 15px; /* Bordes redondeados */
-    max-width: 800px;
-    margin: 0 auto;
-}
-
-.contact-me h2 {
-    font-size: 32px;
-    margin-bottom: 20px;
-}
-
-.contact-form {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
-.form-field {
-    width: 100%;
-    max-width: 600px;
-    margin-bottom: 20px;
-}
-
-.form-field label {
-    display: block;
-    margin-bottom: 5px;
-    font-size: 18px;
-}
-
-.form-field input,
-.form-field textarea {
-    width: 100%;
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    font-size: 16px;
-}
-
-textarea {
-    height: 150px; /* Más grande para los comentarios */
-}
-
-/* Submit Button */
-.submit-button {
-    background-color: rgb(210, 71, 140); /* Rosa igual al botón anterior */
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    font-size: 18px;
-}
-
-.submit-button:hover {
-    background-color: rgb(190, 61, 120); /* Un poco más oscuro al hover */
+/* Spacer for added distance between Design Sprint and image */
+.spacer-large {
+    height: 80px; /* Mayor espacio entre Design Sprint y la imagen */
 }
