@@ -1,3 +1,16 @@
+/* Estilos para la sección de imágenes del proyecto */
+.project-image {
+    text-align: center; /* Centra las imágenes */
+    margin-bottom: 50px; /* Espacio entre las imágenes y el siguiente contenido */
+}
+
+.project-image img {
+    max-width: 100%; /* Asegura que la imagen no sea más ancha que su contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    max-height: 400px; /* Establece una altura máxima para que las imágenes no sean demasiado altas */
+    display: block; /* Evita el espacio debajo de la imagen */
+    margin: 0 auto; /* Centra la imagen horizontalmente */
+}
 /* Reset some default margins and paddings */
 * {
     margin: 0;
