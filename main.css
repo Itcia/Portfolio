@@ -54,7 +54,8 @@ nav {
 .introduction {
     background-color: rgb(169, 228, 210);
     padding: 50px;
-    width: 100%;
+    max-width: 1200px; /* Fijar el ancho máximo */
+    margin: 0 auto; /* Centrar el contenedor */
 }
 
 .intro-content {
@@ -69,9 +70,9 @@ nav {
 }
 
 .project-image {
-    width: 100%; /* Ajusta el contenedor de la imagen al 100% del ancho disponible */
-    max-width: 1200px; /* Asegura que el contenedor de la imagen no exceda el ancho máximo */
-    margin: 0 auto; /* Centra el contenedor de la imagen */
+    max-width: 1200px; /* Mismo ancho máximo que el cuadrado verde */
+    margin: 0 auto; /* Centra el contenedor de imágenes */
+    padding: 0 20px; /* Añade algo de espacio lateral si lo necesitas */
 }
 
 .project-image-img {
