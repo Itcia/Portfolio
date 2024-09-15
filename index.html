@@ -39,6 +39,9 @@
     <h2>Projects</h2>
 </section>
 
+<!-- Main Container with white background -->
+<div class="main-content">
+
 <!-- Project Info Section -->
 <section class="project-info">
     <div class="left-info">
@@ -49,6 +52,17 @@
         <button class="view-project">View Project</button>
     </div>
 </section>
+
+ <!-- Additional spacing for new projects (can replicate for more projects) -->
+    <section class="project-info">
+        <div class="left-info">
+            <p class="project-title">Another project</p>
+            <p class="project-description">UI Development</p>
+        </div>
+        <div class="right-button">
+            <button class="view-project">View Project</button>
+        </div>
+    </section>
 
 <!-- Image Section -->
 <section class="project-image">
@@ -102,6 +116,27 @@
 <section class="project-image">
     <img src="image/Images/Home/Home_Dashboard.jpg" alt="Dashboard">
 </section>
+
+ <!-- Contact Me Section -->
+    <section class="contact-me">
+        <h2>Contact Me</h2>
+        <form class="contact-form">
+            <div class="form-field">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name">
+            </div>
+            <div class="form-field">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email">
+            </div>
+            <div class="form-field">
+                <label for="comments">Comments</label>
+                <textarea id="comments" name="comments"></textarea>
+            </div>
+            <button type="submit" class="submit-button">Submit</button>
+        </form>
+    </section>
+</div>
 
 
 </body>

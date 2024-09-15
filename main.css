@@ -8,7 +8,12 @@
 /* Basic body styling */
 body {
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: #ffffff;
+}
+
+.main-content {
+    background-color: white;
+    padding: 20px;
 }
 
 /* Header and Navigation Styles */
@@ -22,7 +27,8 @@ nav {
     justify-content: space-between;
     align-items: center;
     max-width: 1200px;
-    margin: 0 auto;
+    margin: 40px auto;
+    padding: 0 20px;
 }
 
 .logo h1 {
@@ -167,4 +173,61 @@ nav {
 .project-image img {
     max-width: 100%; /* Asegura que la imagen no exceda el ancho del contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
+}
+
+/* Contact Me Section */
+.contact-me {
+    margin-top: 60px; /* Espacio adicional arriba */
+    text-align: center;
+}
+
+.contact-me h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-field {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 20px;
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.form-field input,
+.form-field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 150px; /* Más grande para los comentarios */
+}
+
+/* Submit Button */
+.submit-button {
+    background-color: rgb(210, 71, 140); /* Rosa igual al botón anterior */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.submit-button:hover {
+    background-color: rgb(190, 61, 120); /* Un poco más oscuro al hover */
 }
