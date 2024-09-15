@@ -11,10 +11,19 @@ body {
     background-color: #f4f4f4;
 }
 
+/* Project Image Section */
+.project-image img {
+    width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    height: auto; /* Mantiene la relación de aspecto */
+    display: block; /* Elimina el espacio debajo de la imagen */
+}
+
 /* Header and Navigation Styles */
 header {
     background-color: #000;
     padding: 20px 20px;
+    max-width: 1200px; /* Ajusta el ancho máximo del menú */
+    margin: 0 auto; /* Centra el menú */
 }
 
 nav {
