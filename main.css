@@ -1,17 +1,3 @@
-/* Estilos para la sección de imágenes del proyecto */
-.project-image {
-    text-align: center; /* Centra las imágenes */
-    margin-bottom: 50px; /* Espacio entre las imágenes y el siguiente contenido */
-}
-
-.project-img {
-    width: 1200px; /* Ajusta al mismo ancho que el rectángulo aqua */
-    height: auto; /* Mantiene la proporción de la imagen */
-    max-height: 500px; /* Ajusta la altura máxima si es necesario */
-    display: block; /* Evita el espacio debajo de la imagen */
-    margin: 0 auto; /* Centra la imagen horizontalmente */
-}
-
 /* Reset some default margins and paddings */
 * {
     margin: 0;
