@@ -126,8 +126,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 40px; /* Espacio entre proyectos */
-    padding: 0 20px;
+    margin-bottom: 50px;
 }
 
 .left-info .project-title {
