@@ -1,7 +1,4 @@
-/* General Styles */
-body {
-    background-color: rgb(255, 255, 255); /* Fondo blanco para todo */
-}
+
 /* Reset some default margins and paddings */
 * {
     margin: 0;
@@ -52,6 +49,17 @@ nav {
 .menu a:hover {
     color: #f0a500;
 }
+
+/* General Styles */
+body {
+    background-color: white; /* Fondo blanco para todo */
+}
+
+.main-content {
+    background-color: white;
+    padding: 20px;
+}
+
 
 /* Introduction Section Styles */
 .introduction {
