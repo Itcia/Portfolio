@@ -1,3 +1,7 @@
+/* General Styles */
+body {
+    background-color: white; /* Fondo blanco para todo */
+}
 /* Reset some default margins and paddings */
 * {
     margin: 0;
