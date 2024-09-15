@@ -215,3 +215,16 @@ textarea {
 .submit-button:hover {
     background-color: rgb(190, 61, 120); /* Hover */
 }
+
+/* Ajuste del ancho de las imágenes */
+.project-image img {
+    max-width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Evita el espacio debajo de la imagen */
+    margin: 0 auto; /* Centra la imagen dentro del contenedor */
+}
+.project-image {
+    max-width: 1200px; /* Ajusta esto según el ancho máximo de tu menú */
+    margin: 0 auto; /* Centra el contenedor en la página */
+    padding: 20px; /* Añade algo de espacio alrededor si es necesario */
+}
