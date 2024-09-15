@@ -4,13 +4,14 @@
     margin-bottom: 50px; /* Espacio entre las imágenes y el siguiente contenido */
 }
 
-.project-image img {
-    max-width: 80%; /* Asegura que la imagen no sea más ancha que su contenedor */
+.project-img {
+    width: 1200px; /* Ajusta al mismo ancho que el rectángulo aqua */
     height: auto; /* Mantiene la proporción de la imagen */
-    max-height: 400px; /* Establece una altura máxima para que las imágenes no sean demasiado altas */
+    max-height: 500px; /* Ajusta la altura máxima si es necesario */
     display: block; /* Evita el espacio debajo de la imagen */
     margin: 0 auto; /* Centra la imagen horizontalmente */
 }
+
 /* Reset some default margins and paddings */
 * {
     margin: 0;
