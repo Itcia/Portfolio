@@ -174,19 +174,27 @@ nav {
     height: auto; /* Mantiene la proporción de la imagen */
 }
 
+/* Spacer to create space between last image and contact form */
+.spacer {
+    height: 60px; /* Ajusta el tamaño según necesites */
+}
+
+
 /* Contact Me Section */
 .contact-me {
     margin-top: 60px; /* Espacio adicional arriba */
     text-align: center;
 }
+
 .contact-container {
     background-color: #f9f9f9;
     padding: 30px;
-    border-radius: 25px; /* Borde redondeado */
+    border: 1px solid black; /* Contorno negro sencillo */
+    border-radius: 15px; /* Bordes redondeados */
     max-width: 800px;
     margin: 0 auto;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra ligera */
 }
+
 .contact-me h2 {
     font-size: 32px;
     margin-bottom: 20px;
