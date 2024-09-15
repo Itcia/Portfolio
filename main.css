@@ -215,11 +215,11 @@ textarea {
     background-color: rgb(190, 61, 120); /* Hover */
 }
 
-/* Estilos para hacer las imágenes más pequeñas */
+/* Estilos para hacer las imágenes del mismo tamaño que el cuadro azul */
 .project-image img {
-    width: 100%; /* Ajusta este valor para controlar el tamaño */
-    max-width: 800px; /* Tamaño máximo que las imágenes pueden tener */
-    height: auto; /* Mantiene la proporción de las imágenes */
+    width: 100%; /* Hacer que las imágenes sean del mismo ancho que el cuadro aqua */
+    max-width: 1200px; /* Igualar el ancho máximo del cuadro aqua */
+    height: auto; /* Mantener las proporciones de las imágenes */
     display: block;
-    margin: 0 auto; /* Centra las imágenes */
+    margin: 0 auto; /* Centrar las imágenes */
 }
