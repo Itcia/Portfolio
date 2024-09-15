@@ -16,6 +16,8 @@ body {
 header {
     background-color: #000;
     padding: 20px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 nav {
@@ -218,11 +220,8 @@ textarea {
 
 /* Contenedor de la imagen para ajustar el ancho */
 .project-image {
-    max-width: 100%; /* Asegura que el contenedor no se expanda más allá del ancho del menú */
+    max-width: 1200px; /* Igual que el ancho máximo del menú */
     margin: 0 auto; /* Centra el contenedor en la página */
-    padding: 0; /* Quita el relleno si es necesario */
-    display: flex; /* Usa flexbox para alinear las imágenes */
-    justify-content: center; /* Centra la imagen dentro del contenedor */
 }
 
 /* Ajuste del ancho de las imágenes */
