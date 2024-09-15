@@ -68,12 +68,16 @@ nav {
     text-align: left; /* Align all text to the left */
 }
 
+.project-image {
+    width: 100%; /* Ajusta el contenedor de la imagen al 100% del ancho disponible */
+    max-width: 1200px; /* Asegura que el contenedor de la imagen no exceda el ancho máximo */
+    margin: 0 auto; /* Centra el contenedor de la imagen */
+}
+
 .project-image-img {
-    width: 100%; /* Adjust image to full width of its container */
-    max-width: 1200px; /* Ensure image does not exceed the width of the introduction section */
-    height: auto; /* Maintain aspect ratio */
-    display: block; /* Remove bottom space */
-    margin: 0 auto; /* Center image horizontally */
+    width: 100%; /* Ajusta la imagen al 100% del contenedor */
+    height: auto; /* Mantiene la proporción de la imagen */
+    display: block; /* Evita el espacio adicional debajo de la imagen */
 }
 
 .hello {
@@ -126,6 +130,8 @@ body {
 .main-content {
     background-color: white;
     padding: 20px;
+    max-width: 1200px; /* Mismo max-width que el contenedor de la introducción */
+    margin: 0 auto; /* Centrar el contenedor horizontalmente */
 }
 
 
