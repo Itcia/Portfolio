@@ -1,3 +1,4 @@
+
 /* Reset some default margins and paddings */
 * {
     margin: 0;
@@ -14,18 +15,21 @@ body {
 /* Header and Navigation Styles */
 header {
     background-color: #000;
-    padding: 20px 0; /* Ajusta el relleno según necesites */
-    width: 100%; /* Asegura que el header ocupe todo el ancho */
-    box-sizing: border-box; /* Incluye el padding en el ancho total */
+    padding: 20px 20px;
+    max-width: 1200px;
+    margin: 0 auto;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%; /* Asegura que el nav ocupe todo el ancho del header */
-    max-width: 1200px; /* Define un ancho máximo si lo deseas */
-    margin: 0 auto; /* Centra el contenido si hay un ancho máximo */
+}
+
+.logo h1 {
+    color: #fff;
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .menu {
@@ -47,6 +51,7 @@ nav {
 .menu a:hover {
     color: #f0a500;
 }
+
 
 /* Introduction Section Styles */
 .introduction {
@@ -114,9 +119,10 @@ body {
 }
 
 .main-content {
-    width: 100%; /* Asegura que el contenedor ocupe todo el ancho */
-    padding: 0; /* Ajusta el relleno si es necesario */
+    background-color: white;
+    padding: 20px;
 }
+
 
 /* Project Info Section */
 .project-info {
@@ -151,14 +157,76 @@ body {
     background-color: rgb(190, 61, 120); /* Hover */
 }
 
-/* Ajustes para las imágenes */
-.project-image {
-    width: 100%; /* Asegura que el contenedor de la imagen ocupe todo el ancho */
-    padding: 0; /* Ajusta el relleno si es necesario */
+/* Contact Me Section with simple rounded border */
+.contact-me {
+    margin-top: 60px;
+    text-align: center;
 }
 
+.contact-me h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border: 2px solid black; /* Simple black border */
+    border-radius: 15px; /* Rounded corners */
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-field {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.form-field input,
+.form-field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 150px;
+}
+
+/* Submit Button */
+.submit-button {
+    background-color: rgb(210, 71, 140); /* Rosa */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.submit-button:hover {
+    background-color: rgb(190, 61, 120); /* Hover */
+}
+
+/* Contenedor de la imagen para ajustar el ancho */
+.project-image {
+    max-width: 1200px; /* Igual que el ancho máximo del menú */
+    margin: 0 auto; /* Centra el contenedor en la página */
+}
+
+/* Ajuste del ancho de las imágenes */
 .project-image img {
-    width: 100%; /* Ajusta la imagen al ancho del contenedor */
+    max-width: 100%; /* Ajusta la imagen al ancho del contenedor */
     height: auto; /* Mantiene la proporción de la imagen */
-    display: block; /* Elimina el espacio debajo de la imagen */
+    display: block; /* Evita el espacio debajo de la imagen */
 }
