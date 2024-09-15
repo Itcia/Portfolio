@@ -214,3 +214,12 @@ textarea {
 .submit-button:hover {
     background-color: rgb(190, 61, 120); /* Hover */
 }
+
+/* Estilos para hacer las imágenes más pequeñas */
+.project-image img {
+    width: 80%; /* Ajusta este valor para controlar el tamaño */
+    max-width: 800px; /* Tamaño máximo que las imágenes pueden tener */
+    height: auto; /* Mantiene la proporción de las imágenes */
+    display: block;
+    margin: 0 auto; /* Centra las imágenes */
+}
