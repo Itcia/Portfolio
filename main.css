@@ -69,17 +69,17 @@ nav {
     text-align: left; /* Align all text to the left */
 }
 
+/* Eliminar márgenes y asegurar que las imágenes ocupen el ancho completo */
 .project-image {
-    max-width: 1200px; /* Ancho máximo igual al del recuadro verde */
-    width: 100%; /* Ajustar el ancho al 100% del contenedor */
-    margin: 0 auto; /* Centrar las imágenes */
-    padding: 0 20px; /* Espacio alrededor de las imágenes */
+    width: 100vw; /* Ocupa todo el ancho de la ventana */
+    margin: 0; /* Elimina márgenes */
+    padding: 0; /* Elimina padding */
 }
 
 .project-image img {
-    width: 100%; /* La imagen ocupará todo el ancho del contenedor */
-    height: auto; /* Mantiene la proporción de la imagen */
-    display: block; /* Evita el espacio en blanco debajo de la imagen */
+    width: 100%; /* Las imágenes ocuparán el 100% del ancho de su contenedor */
+    height: auto; /* Mantén la proporción de las imágenes */
+    display: block; /* Evita el espacio en blanco debajo de las imágenes */
 }
 
 .hello {
