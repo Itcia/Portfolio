@@ -218,13 +218,13 @@ textarea {
 /* Estilos para hacer las imágenes del mismo tamaño que el cuadro azul */
 .project-image img {
     width: 100%; /* Hacer que las imágenes sean del mismo ancho que el cuadro aqua */
-    max-width: 1200px; /* Igualar el ancho máximo del cuadro aqua */
+    max-width: 1400px; /* Igualar el ancho máximo del cuadro aqua */
     height: auto; /* Mantener las proporciones de las imágenes */
     display: block;
     margin: 0 auto; /* Centrar las imágenes */
 }
 /* Asegúrate de que el contenedor principal también sea del mismo ancho que el cuadro aqua */
 .main-content {
-    max-width: 1200px; /* Igualar el ancho máximo del cuadro aqua */
+    max-width: 1400px; /* Igualar el ancho máximo del cuadro aqua */
     margin: 0 auto; /* Centrar el contenido */
 }
