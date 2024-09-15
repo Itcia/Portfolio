@@ -47,3 +47,13 @@ nav {
 .menu a:hover {
     color: #f0a500;
 }
+
+/* General Styles */
+body {
+    background-color: white; /* Fondo blanco para todo */
+}
+
+.main-content {
+    background-color: white;
+    padding: 20px;
+}
