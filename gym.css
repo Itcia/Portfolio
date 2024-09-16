@@ -75,7 +75,7 @@ h2 {
 
 /* Purple Section Styling */
 .purple-section {
-    background-color: #e6ccff; /* Color morado pastel */
+    background-color: #e6ccff; 
     padding: 30px;
     display: flex;
     justify-content: space-around;
@@ -96,7 +96,7 @@ h2 {
 
 /* Column Title Styling */
 .column-title {
-    font-size: 24px; /* Tamaño más grande para los títulos en mayúsculas */
+    font-size: 24px; 
     font-weight: bold;
     margin-bottom: 10px;
 }
@@ -104,5 +104,5 @@ h2 {
 /* Text Below Title Styling */
 .info-column p {
     font-size: 18px;
-    color: #333; /* Color del texto */
+    color: #333;
 }
