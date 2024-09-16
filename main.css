@@ -149,7 +149,7 @@ body {
     cursor: pointer;
     font-size: 18px;
     text-decoration: none; /* Quita el subrayado para que parezca un botón */
-    display: inline-block;
+
 }
 
 .right-button button:hover {
