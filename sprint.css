@@ -48,3 +48,14 @@ nav {
 .menu a:hover {
     color: #f0a500;
 }
+
+/* Main section styling */
+main {
+    padding: 20px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
