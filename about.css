@@ -123,3 +123,28 @@ p {
 .resume-button:hover {
     background-color: rgb(190, 61, 120);
 }
+
+/* Career Section */
+.career-section {
+    background-color: rgb(169, 228, 210); /* Aqua background */
+    padding: 50px;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.career-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.career-title {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.career-description {
+    font-size: 18px;
+    line-height: 1.6;
+}
