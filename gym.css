@@ -49,13 +49,13 @@ nav {
     color: #f0a500;
 }
 
-/* Title Styles */
-.title {
+/* Main section styling */
+main {
+    padding: 20px;
     text-align: center;
-    margin-top: 20px;
 }
 
-.title h1 {
-    font-size: 64px;
-    font-weight: bold;
+h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
 }
