@@ -48,3 +48,14 @@ nav {
 .menu a:hover {
     color: #f0a500;
 }
+
+/* Title Styles */
+.title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.title h1 {
+    font-size: 64px;
+    font-weight: bold;
+}
