@@ -1,7 +1,3 @@
-body {
-    background-color: rgb(255, 255, 255);
-}
-
 /* Reset some default margins and paddings */
 * {
     margin: 0;
@@ -18,7 +14,7 @@ body {
 /* Header and Navigation Styles */
 header {
     background-color: #000;
-    padding: 20px 20px; /* Aumentar el padding vertical */
+    padding: 20px 20px;
 }
 
 nav {
@@ -45,8 +41,8 @@ nav {
 .menu a {
     color: #fff;
     text-decoration: none;
-    font-size: 16px; /* Tamaño de las letras del menú */
-    font-weight: normal; /* Sin negrita */
+    font-size: 16px;
+    font-weight: normal;
 }
 
 .menu a:hover {
@@ -67,14 +63,9 @@ h2 {
 .project-image img {
     width: 100%; /* Hacer que las imágenes sean del mismo ancho que el cuadro aqua */
     max-width: 2000px; /* Igualar el ancho máximo del cuadro aqua */
-    height: auto; /* Mantener las proporciones de las imágenes */
+    height: auto;
     display: block;
-    margin: 0 auto; /* Centrar las imágenes */
-}
-
-.main-content {
-    max-width: 2000px; 
-    margin: 0 auto; 
+    margin: 0 auto;
 }
 
 /* Purple Section Styling */
@@ -84,13 +75,14 @@ h2 {
     border-radius: 15px;
     display: flex;
     justify-content: space-between; /* Alinea las columnas horizontalmente */
-    max-width: 1200px; /* Puedes ajustar este ancho si lo deseas */
-    margin: 20px auto; /* Centra el rectángulo horizontalmente */
+    max-width: 1200px;
+    margin: 20px auto;
 }
 
 .column {
-    flex: 1; /* Hace que cada columna ocupe el mismo espacio */
-    padding: 0 10px;
+    flex: 1;
+    padding: 0 20px;
+    text-align: center; /* Centramos el texto */
 }
 
 .column h2 {
@@ -101,4 +93,16 @@ h2 {
 
 .column p {
     font-size: 16px;
+}
+
+/* Aseguramos que las columnas se distribuyan adecuadamente en pantallas más pequeñas */
+@media (max-width: 768px) {
+    .pastel-purple-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column {
+        margin-bottom: 20px;
+    }
 }
