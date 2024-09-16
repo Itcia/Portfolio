@@ -193,3 +193,65 @@ p {
         margin: 20px 0;
     }
 }
+
+/* Contact Me Section with simple rounded border */
+.contact-me {
+    margin-top: 60px;
+    text-align: center;
+}
+
+.contact-me h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 40px;
+    border: 2px solid black; /* Simple black border */
+    border-radius: 15px; /* Rounded corners */
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.form-field {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.form-field label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+
+.form-field input,
+.form-field textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+textarea {
+    height: 150px;
+}
+
+/* Submit Button */
+.submit-button {
+    background-color: rgb(210, 71, 140); /* Rosa */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.submit-button:hover {
+    background-color: rgb(190, 61, 120); /* Hover */
+}
+
