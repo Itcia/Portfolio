@@ -148,7 +148,7 @@ body {
     border-radius: 25px;
     cursor: pointer;
     font-size: 18px;
-    text-decoration: none; /* Quita el subrayado para que parezca un botón */
+  
 
 }
 
@@ -217,7 +217,6 @@ textarea {
     background-color: rgb(190, 61, 120); /* Hover */
 }
 
-/* Estilos para hacer las imágenes del mismo tamaño que el cuadro azul */
 .project-image img {
     width: 100%; /* Hacer que las imágenes sean del mismo ancho que el cuadro aqua */
     max-width: 2000px; /* Igualar el ancho máximo del cuadro aqua */
@@ -225,8 +224,8 @@ textarea {
     display: block;
     margin: 0 auto; /* Centrar las imágenes */
 }
-/* Asegúrate de que el contenedor principal también sea del mismo ancho que el cuadro aqua */
+
 .main-content {
-    max-width: 2000px; /* Igualar el ancho máximo del cuadro aqua */
-    margin: 0 auto; /* Centrar el contenido */
+    max-width: 2000px; 
+    margin: 0 auto; 
 }
