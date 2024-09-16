@@ -72,3 +72,37 @@ h2 {
     max-width: 2000px; 
     margin: 0 auto; 
 }
+
+/* Purple Section Styling */
+.purple-section {
+    background-color: #e6ccff; /* Color morado pastel */
+    padding: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%; /* Ancho completo */
+    max-width: 1200px; /* El mismo ancho que el cuadro aqua */
+    margin: 0 auto; /* Centrar el cuadro */
+    border-radius: 15px; /* Bordes redondeados */
+}
+
+/* Column Styling */
+.info-column {
+    text-align: center;
+    flex: 1; /* Asegura que las columnas ocupen el mismo espacio */
+    padding: 10px;
+}
+
+/* Column Title Styling */
+.column-title {
+    font-size: 24px; /* Tamaño más grande para los títulos en mayúsculas */
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+/* Text Below Title Styling */
+.info-column p {
+    font-size: 18px;
+    color: #333; /* Color del texto */
+}
