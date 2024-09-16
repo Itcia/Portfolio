@@ -148,6 +148,8 @@ body {
     border-radius: 25px;
     cursor: pointer;
     font-size: 18px;
+    text-decoration: none; /* Quita el subrayado en el enlace si es la opción 1 */
+    display: inline-block; /* Para que se vea como botón */
 }
 
 .right-button button:hover {
