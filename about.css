@@ -64,3 +64,62 @@ p {
     font-size: 18px;
     color: #333;
 }
+
+/* About Me Section */
+.about-me {
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.about-container {
+    display: flex;
+    align-items: center;
+    max-width: 1200px;
+}
+
+.about-image {
+    width: 250px;
+    height: 250px;
+    object-fit: cover; /* To ensure it's a perfect square */
+    margin-right: 40px;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hi-text {
+    font-size: 64px;
+    font-weight: normal; /* Same size as 'Itcia Bernal' but not bold */
+    margin-bottom: 10px;
+}
+
+.name-text {
+    font-size: 64px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.title-text, .location-text {
+    font-size: 24px;
+    font-weight: normal;
+    margin-bottom: 10px;
+}
+
+.resume-button {
+    background-color: rgb(210, 71, 140); /* Pink color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.resume-button:hover {
+    background-color: rgb(190, 61, 120);
+}
