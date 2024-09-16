@@ -127,15 +127,16 @@ p {
 /* Career Section */
 .career-section {
     background-color: rgb(169, 228, 210); /* Aqua background */
-    padding: 50px;
-    width: 100%;
-    margin-top: 50px;
-    display: block; /* Ensure it's visible */
-    clear: both; /* Clear floats or any interference */
+    padding: 30px;
+    width: 80%; /* Reduce the width to make it smaller */
+    margin: 50px auto; /* Center it horizontally and add margin to the top */
+    border-radius: 20px; /* Rounded corners */
+    display: block;
+    clear: both;
 }
 
 .career-content {
-    max-width: 1200px;
+    max-width: 1000px; /* Slightly smaller max-width */
     margin: 0 auto;
     text-align: left;
 }
