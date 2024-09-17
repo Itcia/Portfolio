@@ -111,14 +111,16 @@ h2 {
 .subtitle-ux {
     font-size: 24px;
     font-weight: bold;
-    margin-left: calc(30%); /* Align with the start of 'Role' text */
+    display: inline-block;
+    position: relative;
+    margin-left: 250px; /* Adjust this to match the start of "Role" */
     margin-bottom: 5px;
 }
 
 /* Adjusting the underline */
 .underline {
     border-top: 2px solid black;
-    width: calc(70%); /* Adjust this to match the purple box's width */
-    margin-left: calc(30%); /* Align the underline with the subtitle */
+    width: 600px; /* Adjust to match the width of the purple box */
+    margin-left: 250px; /* Align the underline to the subtitle */
     margin-top: 5px;
 }
