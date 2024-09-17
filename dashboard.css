@@ -67,3 +67,42 @@ h2 {
     display: block;
     margin: 0 auto;
 }
+
+/* Red Section Styling */
+.pastel-purple-box {
+    background-color: #FC997A; /* Color rojo pastel */
+    padding: 20px;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between; /* Alinea las columnas horizontalmente */
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.column {
+    flex: 1;
+    padding: 0 20px;
+    text-align: center; /* Centramos el texto */
+}
+
+.column h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.column p {
+    font-size: 16px;
+}
+
+/* Aseguramos que las columnas se distribuyan adecuadamente en pantallas más pequeñas */
+@media (max-width: 768px) {
+    .pastel-purple-box {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .column {
+        margin-bottom: 20px;
+    }
+}
