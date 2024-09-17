@@ -127,7 +127,7 @@ h2 {
 
 /* Style for the project details section */
 .project-details {
-    background-color: orange;
+    background-color: rgb(213, 112, 22);
     padding: 20px;
     margin-left: 525px; /* Align with the subtitle */
     margin-top: 10px;
