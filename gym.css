@@ -114,11 +114,11 @@ h2 {
     margin-left: calc(10%); /* Move further to the left */
     margin-bottom: 5px;
 }
-
 /* Adjusting the underline */
 .underline {
     border-top: 2px solid black;
-    width: calc(90%); /* Adjust this to end the line where the purple box ends */
+    width: 1200px; /* Set the width to match the purple box */
+    max-width: 100%; /* Ensures the underline doesn't overflow on smaller screens */
     margin-left: calc(10%); /* Match the alignment with the subtitle */
     margin-top: 5px;
 }
