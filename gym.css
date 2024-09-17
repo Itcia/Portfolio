@@ -107,17 +107,18 @@ h2 {
     }
 }
 
-/* Styling for the UX Research subtitle */
+/* Adjusting the subtitle */
 .ux-research-title {
     font-size: 24px;
     font-weight: bold;
-    margin-left: calc(100% / 4); /* Align with the "Role" column */
+    margin-left: calc(25%); /* Adjust this based on the position of the "Role" column */
     margin-bottom: 5px;
 }
 
+/* Adjusting the underline */
 .underline {
     border-top: 2px solid black;
-    width: calc(100% - (100% / 4)); /* Ensure it aligns with the purple box */
-    margin-left: calc(100% / 4); /* Match the "Role" column alignment */
+    width: calc(100% - 25%); /* Adjust the width of the underline */
+    margin-left: calc(25%); /* Match the alignment of "Role" */
     margin-top: 5px;
 }
