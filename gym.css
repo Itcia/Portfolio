@@ -109,16 +109,18 @@ h2 {
 
 /* Adjusting the subtitle */
 .subtitle-ux {
+    margin-left: 250px; /* Adjust this to match the start of the "Role" column */
+    margin-bottom: 10px;
+}
+
+.subtitle-ux h3 {
     font-size: 24px;
     font-weight: bold;
-    margin-left: calc(10%); /* Move further to the left */
-    margin-bottom: 5px;
 }
 
 /* Adjusting the underline */
 .underline {
     border-top: 2px solid black;
-    width: calc(90%); /* Adjust this to end the line where the purple box ends */
-    margin-left: calc(10%); /* Match the alignment with the subtitle */
+    width: 800px; /* Adjust to match the width of the purple box */
     margin-top: 5px;
 }
