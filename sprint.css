@@ -70,7 +70,7 @@ h2 {
 
 /* Green Section Styling */
 .pastel-green-box {
-    background-color: #D9F4CE /* Color verde pastel */
+    background-color: #D9F4CE; /* Color verde pastel */
     padding: 20px;
     border-radius: 15px;
     display: flex;

@@ -58,14 +58,14 @@ nav {
 }
 
 .intro-content {
-    max-width: 1200px; /* Restrict width */
+    max-width: 1200px;
     margin: 0 auto;
     padding-left: 20px;
 }
 
 .intro-content p {
     margin-bottom: 10px;
-    text-align: left; /* Align all text to the left */
+    text-align: left;
 }
 
 .hello {
@@ -112,7 +112,7 @@ nav {
 
 /* General Styles */
 body {
-    background-color: white; /* Fondo blanco para todo */
+    background-color: white;
 }
 
 .main-content {
@@ -141,7 +141,7 @@ body {
 }
 
 .right-button button {
-    background-color: rgb(210, 71, 140); /* Rosa */
+    background-color: rgb(210, 71, 140); 
     color: white;
     padding: 10px 20px;
     border: none;
@@ -173,7 +173,7 @@ body {
     align-items: center;
     padding: 40px;
     border: 2px solid black; /* Simple black border */
-    border-radius: 15px; /* Rounded corners */
+    border-radius: 15px;
     max-width: 600px;
     margin: 0 auto;
 }
