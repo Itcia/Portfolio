@@ -140,6 +140,8 @@ h2 {
 .project-text-container {
     margin-left: 144px; /* Margin on the left side */
     margin-right: 144px; /* Margin on the right side */
+    padding-top: 60px; /* Space above the text */
+    padding-bottom: 60px; /* Space below the text */
 }
 
 /* Style for the project text */
