@@ -151,16 +151,23 @@ h2 {
     line-height: 1.6; /* Adjust this value for desired line spacing */
 }
 
-.project-text p, .project-text ul {
-    margin: 0;
+/* Style for the list */
+.project-list {
+    list-style: none; /* Remove default bullets */
     padding: 0;
 }
 
-.project-text ul {
-    list-style-type: none;
-    padding-left: 0;
+.project-list li {
+    position: relative; /* For positioning custom bullets */
+    margin-bottom: 20px; /* Space between list items */
+    padding-left: 30px; /* Space for custom bullets */
 }
 
-.project-text li {
-    margin-bottom: 10px;
+.project-list li::before {
+    content: '•'; /* Custom bullet character */
+    font-size: 24px; /* Size of the bullet */
+    color: white; /* Bullet color */
+    position: absolute; /* Positioning relative to list item */
+    left: 0; /* Align bullet with the left edge */
+    top: 0; /* Align bullet with the top edge */
 }
