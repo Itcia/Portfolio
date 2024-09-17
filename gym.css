@@ -107,23 +107,22 @@ h2 {
     }
 }
 
-/* Estilo para el subtítulo UX Research */
-.ux-research-section {
-    margin: 30px auto; /* Añade margen para separar del cuadro morado */
-    max-width: 1200px; /* Alinear con el ancho del cuadro morado */
-    padding-left: 20px; /* Espacio a la izquierda para que no esté en la orilla */
+/* Styling for the UX Research subtitle */
+.subtitle-ux {
+    text-align: left; /* Alinearlo a la izquierda */
+    padding-left: 20px; /* Ajustar el espacio para no estar al borde */
+    margin-top: 20px; /* Espacio encima del subtítulo */
 }
 
-.ux-research-title {
+.subtitle-ux h3 {
     font-size: 28px; /* Tamaño del subtítulo */
     font-weight: bold;
-    text-align: left; /* Alinear a la izquierda */
+    margin-bottom: 10px; /* Espacio debajo del subtítulo */
 }
 
-.underline {
-    border: none;
-    border-top: 2px solid black; /* Línea negra delgada */
-    width: calc(100% - 20px); /* Ajusta el ancho desde el subtítulo hasta el borde del cuadro morado */
-    margin-left: 0; /* Línea empieza donde empieza el texto */
-    margin-top: 10px; /* Separación entre subtítulo y la línea */
+/* Line under the subtitle */
+.subtitle-ux .underline {
+    width: calc(100% - 40px); /* Ancho dinámico, ajustado al cuadro púrpura */
+    border-top: 2px solid black; /* Línea negra */
+    margin-left: 0; /* La línea comienza alineada con el texto */
 }
