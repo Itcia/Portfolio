@@ -111,14 +111,14 @@ h2 {
 .subtitle-ux {
     font-size: 24px;
     font-weight: bold;
-    margin-left: calc(10%); /* Move further to the left */
+    margin-left: calc(30%); /* Adjust this based on the exact position of "Itcia (UI/UX Designer)" */
     margin-bottom: 5px;
 }
 
 /* Adjusting the underline */
 .underline {
     border-top: 2px solid black;
-    width: calc(90%); /* Adjust this to end the line where the purple box ends */
-    margin-left: calc(10%); /* Match the alignment with the subtitle */
+    width: calc(60%); /* Adjust the width to fit with the purple box */
+    margin-left: calc(30%); /* Match the alignment with the subtitle */
     margin-top: 5px;
 }
