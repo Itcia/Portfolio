@@ -59,3 +59,11 @@ h2 {
     font-size: 36px;
     margin-bottom: 10px;
 }
+
+.project-image img {
+    width: 100%; /* Hacer que las imágenes sean del mismo ancho que el cuadro aqua */
+    max-width: 2000px; /* Igualar el ancho máximo del cuadro aqua */
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
