@@ -108,7 +108,7 @@ h2 {
 }
 
 /* Adjusting the subtitle */
-.ux-research-title {
+.subtitle-ux {
     font-size: 24px;
     font-weight: bold;
     margin-left: calc(25%); /* Adjust this based on the position of the "Role" column */
