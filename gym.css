@@ -106,3 +106,24 @@ h2 {
         margin-bottom: 20px;
     }
 }
+
+/* Estilo para el subtítulo UX Research */
+.ux-research-section {
+    margin: 30px auto; /* Añade margen para separar del cuadro morado */
+    max-width: 1200px; /* Alinear con el ancho del cuadro morado */
+    padding-left: 20px; /* Espacio a la izquierda para que no esté en la orilla */
+}
+
+.ux-research-title {
+    font-size: 28px; /* Tamaño del subtítulo */
+    font-weight: bold;
+    text-align: left; /* Alinear a la izquierda */
+}
+
+.underline {
+    border: none;
+    border-top: 2px solid black; /* Línea negra delgada */
+    width: calc(100% - 20px); /* Ajusta el ancho desde el subtítulo hasta el borde del cuadro morado */
+    margin-left: 0; /* Línea empieza donde empieza el texto */
+    margin-top: 10px; /* Separación entre subtítulo y la línea */
+}
