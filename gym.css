@@ -108,21 +108,16 @@ h2 {
 }
 
 /* Styling for the UX Research subtitle */
-.subtitle-ux {
-    text-align: left; /* Alinearlo a la izquierda */
-    padding-left: 20px; /* Ajustar el espacio para no estar al borde */
-    margin-top: 20px; /* Espacio encima del subtítulo */
-}
-
-.subtitle-ux h3 {
-    font-size: 28px; /* Tamaño del subtítulo */
+.ux-research-title {
+    font-size: 24px;
     font-weight: bold;
-    margin-bottom: 10px; /* Espacio debajo del subtítulo */
+    margin-left: calc(100% / 4); /* Align with the "Role" column */
+    margin-bottom: 5px;
 }
 
-/* Line under the subtitle */
-.subtitle-ux .underline {
-    width: calc(100% - 40px); /* Ancho dinámico, ajustado al cuadro púrpura */
-    border-top: 2px solid black; /* Línea negra */
-    margin-left: 0; /* La línea comienza alineada con el texto */
+.underline {
+    border-top: 2px solid black;
+    width: calc(100% - (100% / 4)); /* Ensure it aligns with the purple box */
+    margin-left: calc(100% / 4); /* Match the "Role" column alignment */
+    margin-top: 5px;
 }
