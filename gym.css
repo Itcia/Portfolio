@@ -124,3 +124,32 @@ h2 {
     width: 800px; /* Adjust to match the width of the purple box */
     margin-top: 5px;
 }
+
+/* Style for the project details section */
+.project-details {
+    background-color: orange;
+    padding: 20px;
+    margin-left: 525px; /* Align with the subtitle */
+    margin-top: 10px;
+    width: 800px; /* Adjust to match the width of the purple box */
+    border-radius: 5px;
+}
+
+.project-text {
+    font-size: 16px;
+    color: white; /* Text color to contrast with the orange background */
+}
+
+.project-text p, .project-text ul {
+    margin: 0;
+    padding: 0;
+}
+
+.project-text ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.project-text li {
+    margin-bottom: 10px;
+}
