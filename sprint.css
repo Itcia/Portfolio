@@ -127,7 +127,7 @@ h2 {
 .prologue-list {
     position: absolute; /* Posiciona el prólogo de forma absoluta */
     left: 130px;; /* Pegado al lado izquierdo de la página */
-    top: 1200px; /* Ajusta según sea necesario para alinear con el cuadro naranja */
+    top: 1100px; /* Ajusta según sea necesario para alinear con el cuadro naranja */
     transform: translateY(-50%); /* Centra verticalmente respecto al cuadro naranja */
     width: 200px; /* Ajusta el ancho según tu diseño */
     padding: 10px;
@@ -153,7 +153,7 @@ h2 {
     background-color: rgb(15, 103, 68);
     padding: 20px;
     margin-left: 525px; /* Align with the subtitle */
-    margin-top:30px
+    margin-top: 50px;
     width: 800px; /* Adjust to match the width of the purple box */
     border-radius: 5px;
     box-sizing: border-box; /* Include padding and border in element's total width and height */
