@@ -195,13 +195,13 @@ h2 {
 }
 
 /* Style for the subtitle "Card Sorting" section */
-.persona-section {
+.CardSorting-section {
     text-align: center; /* Center-align text and image */
     margin-top: 30px; /* Space between the orange box and the new section */
     margin-left: 375px;
 }
 
-.persona-subtitle {
+.CardSorting-subtitle {
     font-size: 24px;
     font-weight: bold;
     margin-bottom: 10px; /* Space between subtitle and image */
