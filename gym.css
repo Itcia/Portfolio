@@ -124,7 +124,31 @@ h2 {
     width: 800px; /* Adjust to match the width of the purple box */
     margin-top: 5px;
 }
+/* Estilo del prólogo (lista a la izquierda) */
+.prologue-list {
+    position: absolute; /* Posiciona el prólogo de forma absoluta */
+    left: 0; /* Pegado al lado izquierdo de la página */
+    top: 1200px; /* Ajusta según sea necesario para alinear con el cuadro naranja */
+    transform: translateY(-50%); /* Centra verticalmente respecto al cuadro naranja */
+    width: 200px; /* Ajusta el ancho según tu diseño */
+    padding: 10px;
+}
 
+.prologue-title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.prologue-list ul {
+    list-style-type: disc;
+    padding-left: 20px; /* Ajusta para darle sangría a la lista */
+}
+
+.prologue-list li {
+    font-size: 18px;
+    margin-bottom: 5px; /* Espacio entre cada elemento de la lista */
+}
 /* Style for the project details section */
 .project-details {
     background-color: rgb(213, 112, 22);
