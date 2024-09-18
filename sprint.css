@@ -152,14 +152,14 @@ h2 {
 .project-details {
     background-color: rgb(15, 103, 68);
     padding: 20px;
-    margin-left: 525px; /* Align with the subtitle */
+    margin-left: 525px; 
     margin-top: 50px;
-    width: 800px; /* Adjust to match the width of the purple box */
+    width: 800px; 
     border-radius: 5px;
     box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
-/* Container for the text inside the orange box */
+/* Container for the text inside the green box */
 .project-text-container {
     margin-left: 144px; /* Margin on the left side */
     margin-right: 144px; /* Margin on the right side */
@@ -170,7 +170,7 @@ h2 {
 /* Style for the project text */
 .project-text {
     font-size: 16px;
-    color: white; /* Text color to contrast with the orange background */
+    color: white; 
     line-height: 1.6; /* Adjust this value for desired line spacing */
 }
 
