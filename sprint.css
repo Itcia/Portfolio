@@ -148,3 +148,49 @@ h2 {
     font-size: 18px;
     margin-bottom: 5px; /* Espacio entre cada elemento de la lista */
 }
+/* Style for the project details section */
+.project-details {
+    background-color: rgb(15, 103, 68);
+    padding: 20px;
+    margin-left: 525px; /* Align with the subtitle */
+    margin-top: 50px;
+    width: 800px; /* Adjust to match the width of the purple box */
+    border-radius: 5px;
+    box-sizing: border-box; /* Include padding and border in element's total width and height */
+}
+
+/* Container for the text inside the orange box */
+.project-text-container {
+    margin-left: 144px; /* Margin on the left side */
+    margin-right: 144px; /* Margin on the right side */
+    padding-top: 60px; /* Space above the text */
+    padding-bottom: 60px; /* Space below the text */
+}
+
+/* Style for the project text */
+.project-text {
+    font-size: 16px;
+    color: white; /* Text color to contrast with the orange background */
+    line-height: 1.6; /* Adjust this value for desired line spacing */
+}
+
+/* Style for the list */
+.project-list {
+    list-style: none; /* Remove default bullets */
+    padding: 0;
+}
+
+.project-list li {
+    position: relative; /* For positioning custom bullets */
+    margin-bottom: 20px; /* Space between list items */
+    padding-left: 30px; /* Space for custom bullets */
+}
+
+.project-list li::before {
+    content: '•'; /* Custom bullet character */
+    font-size: 24px; /* Size of the bullet */
+    color: white; /* Bullet color */
+    position: absolute; /* Positioning relative to list item */
+    left: 0; /* Align bullet with the left edge */
+    top: 0; /* Align bullet with the top edge */
+}
