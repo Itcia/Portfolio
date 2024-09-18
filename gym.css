@@ -127,7 +127,7 @@ h2 {
 /* Estilo del prólogo (lista a la izquierda) */
 .prologue-list {
     position: absolute; /* Posiciona el prólogo de forma absoluta */
-    left:0; /* Pegado al lado izquierdo de la página */
+    left: 130px;; /* Pegado al lado izquierdo de la página */
     top: 1200px; /* Ajusta según sea necesario para alinear con el cuadro naranja */
     transform: translateY(-50%); /* Centra verticalmente respecto al cuadro naranja */
     width: 200px; /* Ajusta el ancho según tu diseño */
