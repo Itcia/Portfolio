@@ -259,3 +259,25 @@ h2 {
     margin: 0 auto; /* Center the image */
     border-radius: 5px; /* Optional: add rounded corners */
 }
+
+/* Style for the subtitle "SiteMap" section */
+.SiteMap-section {
+    text-align: center; /* Center-align text and image */
+    margin-top: 30px; /* Space between the orange box and the new section */
+    margin-left: 375px;
+}
+
+.SiteMapsubtitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 10px; /* Space between subtitle and image */
+}
+
+/* Style for the image */
+.SiteMap-image {
+    display: block;
+    width: 800px; /* Match the width of the orange box */
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the image */
+    border-radius: 5px; /* Optional: add rounded corners */
+}
