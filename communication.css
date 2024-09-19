@@ -121,7 +121,7 @@ h2 {
 /* Adjusting the underline */
 .underline {
     border-top: 2px solid black;
-    width: 800px; /* Adjust to match the width of the purple box */
+    width: 800px; /* Adjust to match the width of the yellow box */
     margin-top: 5px;
 }
 /* Estilo del prólogo (lista a la izquierda) */
@@ -151,16 +151,16 @@ h2 {
 }
 /* Style for the project details section */
 .project-details {
-    background-color: rgb(213, 112, 22);
+    background-color: rgb(240, 187, 0);
     padding: 20px;
     margin-left: 525px; /* Align with the subtitle */
     margin-top: 50px;
-    width: 800px; /* Adjust to match the width of the purple box */
+    width: 800px; /* Adjust to match the width of the yellow box */
     border-radius: 5px;
     box-sizing: border-box; /* Include padding and border in element's total width and height */
 }
 
-/* Container for the text inside the orange box */
+/* Container for the text inside the yellow box */
 .project-text-container {
     margin-left: 144px; /* Margin on the left side */
     margin-right: 144px; /* Margin on the right side */
