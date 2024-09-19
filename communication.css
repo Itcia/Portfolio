@@ -372,3 +372,25 @@ h2 {
     border-radius: 5px; /* Optional: add rounded corners */
     margin-top: 30px;
 }
+/* Style for the subtitle "Prototype3" section */
+.Prototype3-section {
+    text-align: center; /* Center-align text and image */
+    margin-top: 30px; /* Space between the orange box and the new section */
+    margin-left: 375px;
+}
+
+.Prototype3-subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px; /* Space between subtitle and image */
+}
+
+/* Style for the image */
+.Prototype3-image {
+    display: block;
+    width: 800px; 
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the image */
+    border-radius: 5px; /* Optional: add rounded corners */
+    margin-top: 30px;
+}
