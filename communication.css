@@ -129,7 +129,7 @@ h2 {
 .prologue-list {
     position: absolute; /* Posiciona el prólogo de forma absoluta */
     left: 130px;; /* Pegado al lado izquierdo de la página */
-    top: 1150px; /* Ajusta según sea necesario para alinear con el cuadro naranja */
+    top: 1190px; /* Ajusta según sea necesario para alinear con el cuadro naranja */
     transform: translateY(-50%); /* Centra verticalmente respecto al cuadro naranja */
     width: 200px; /* Ajusta el ancho según tu diseño */
     padding: 10px;
