@@ -195,3 +195,24 @@ h2 {
     left: 0; /* Align bullet with the left edge */
     top: 0; /* Align bullet with the top edge */
 }
+/* Style for the subtitle "UXPyramid" section */
+.UXPyramid-section {
+    text-align: center; /* Center-align text and image */
+    margin-top: 30px; /* Space between the orange box and the new section */
+    margin-left: 375px;
+}
+
+.UXPyramid-subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px; /* Space between subtitle and image */
+}
+
+/* Style for the image */
+.UXPyramid-image {
+    display: block;
+    width: 800px; 
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the image */
+    border-radius: 5px; /* Optional: add rounded corners */
+}
