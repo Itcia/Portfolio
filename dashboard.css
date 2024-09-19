@@ -322,3 +322,25 @@ h2 {
     width: 800px; /* Adjust to match the width of the yellow box */
     margin-top: 5px;
 }
+/* Style for the subtitle "Wireframes" section */
+.Wireframes-section {
+    text-align: center; /* Center-align text and image */
+    margin-top: 30px; /* Space between the orange box and the new section */
+    margin-left: 375px;
+}
+
+.Wireframes-subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px; /* Space between subtitle and image */
+}
+
+/* Style for the image */
+.Wireframes-image {
+    display: block;
+    width: 800px; 
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the image */
+    border-radius: 5px; /* Optional: add rounded corners */
+    margin-top: 30px;
+}
