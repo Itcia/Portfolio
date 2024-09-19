@@ -260,3 +260,25 @@ h2 {
     margin: 0 auto; /* Center the image */
     border-radius: 5px; /* Optional: add rounded corners */
 }
+
+/* Style for the subtitle "TreeTesting" section */
+.TreeTesting-section {
+    text-align: center; /* Center-align text and image */
+    margin-top: 30px; /* Space between the orange box and the new section */
+    margin-left: 375px;
+}
+
+.TreeTesting-subtitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 40px; /* Space between subtitle and image */
+}
+
+/* Style for the image */
+.TreeTesting-image {
+    display: block;
+    width: 800px; 
+    height: auto; /* Maintain aspect ratio */
+    margin: 0 auto; /* Center the image */
+    border-radius: 5px; /* Optional: add rounded corners */
+}
