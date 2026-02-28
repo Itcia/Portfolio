@@ -111,34 +111,27 @@
     <div class="spacer"></div>
 
 
-  <!-- Contact Me Section -->
-<section class="contact-me">
-    <h2>Contact Me</h2>
+ <form action="https://formspree.io/f/xvzbylgq" method="POST">
+  <input type="text" name="_gotcha" style="display:none !important">
+  
+  <label>
+    Nombre:
+    <input type="text" name="nombre" required>
+  </label>
+  
+  <label>
+    Correo electrónico:
+    <input type="email" name="email" required>
+  </label>
+  
+  <label>
+    Mensaje:
+    <textarea name="mensaje" required></textarea>
+  </label>
+  
+  <button type="submit">Enviar mensaje</button>
+</form>
 
-    <form class="contact-form"
-        action="https://formspree.io/f/xvzbylgq"
-        method="POST">
-
-        <div class="form-field">
-            <label for="name">Name</label>
-            <input type="text" id="name" name="name" required>
-        </div>
-
-        <div class="form-field">
-            <label for="email">Email</label>
-            <input type="email" id="email" name="email" required>
-        </div>
-
-        <div class="form-field">
-            <label for="comments">Comments</label>
-            <textarea id="comments" name="message" required></textarea>
-        </div>
-
-        <!-- Optional: custom subject -->
-        <input type="hidden" name="_subject" value="New Portfolio Message">
-
-        <button type="submit" class="submit-button">Submit</button>
-    </form>
 </section>
 
 </body>
