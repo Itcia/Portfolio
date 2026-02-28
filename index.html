@@ -116,8 +116,11 @@
     <h2>Contact Me</h2>
 
     <form class="contact-form"
-        action="https://formspree.io/f/xvzbylgq" 
+        action="https://formspree.io/f/maqdkvqz" 
         method="POST">
+
+        <!-- Campo antispam obligatorio -->
+        <input type="text" name="_gotcha" style="display:none !important">
 
         <div class="form-field">
             <label for="name">Name</label>
@@ -134,11 +137,11 @@
             <textarea id="comments" name="message" required></textarea>
         </div>
 
-        <!-- Optional: custom subject -->
-        <input type="hidden" name="_subject" value="New Portfolio Message">
+        <input type="hidden" name="_subject" value="New message from your portfolio">
 
         <button type="submit" class="submit-button">Submit</button>
     </form>
+
 </section>
 
 </body>
