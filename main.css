@@ -217,6 +217,29 @@ textarea {
     background-color: rgb(190, 61, 120); /* Hover */
 }
 
+/* ===== NUEVO: Estilos para el botón About Me ===== */
+.see-works {
+    background-color: rgb(210, 71, 140); /* Mismo rosa que tu submit-button */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 25px; /* Mismo border-radius que tu submit-button */
+    cursor: pointer;
+    font-size: 18px;
+    text-decoration: none; /* ¡Esto quita el color azul y subrayado! */
+    display: inline-block; /* Para que se comporte como botón */
+    font-family: inherit; /* Hereda la fuente del resto de la página */
+    transition: background-color 0.3s ease; /* Transición suave */
+    margin: 0; /* Ajusta según necesites */
+}
+
+/* Efecto hover - cuando el mouse se acerca */
+.see-works:hover {
+    background-color: rgb(190, 61, 120); /* Mismo hover que tu submit-button */
+    color: white; /* Mantiene el texto blanco */
+}
+/* =============================================== */
+
 .project-image img {
     width: 100%; /* Hacer que las imágenes sean del mismo ancho que el cuadro aqua */
     max-width: 2000px; /* Igualar el ancho máximo del cuadro aqua */
@@ -229,4 +252,3 @@ textarea {
     max-width: 2000px; 
     margin: 0 auto; 
 }
-
