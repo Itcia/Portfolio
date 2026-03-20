@@ -83,26 +83,39 @@
     </div>
 </section>
 
-<!-- Contact Me Section without background or border -->
-    <section class="contact-me">
-        <h2>Feel Free To Get In Touch!</h2>
-        <form class="contact-form">
-            <div class="form-field">
-                <label for="name">Name</label>
-                <input type="text" id="name" name="name">
-            </div>
-            <div class="form-field">
-                <label for="email">Email</label>
-                <input type="email" id="email" name="email">
-            </div>
-            <div class="form-field">
-                <label for="comments">Comments</label>
-                <textarea id="comments" name="comments"></textarea>
-            </div>
-            <button type="submit" class="submit-button">Submit</button>
-        </form>
-    </section>
-</div>
+<!-- Contact Me Section -->
+<section class="contact-me">
+    <h2>Contact Me</h2>
+
+    <form class="contact-form"
+        action="https://formspree.io/f/maqdkvqz" 
+        method="POST">
+
+        <!-- Campo antispam obligatorio -->
+        <input type="text" name="_gotcha" style="display:none !important">
+
+        <div class="form-field">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+
+        <div class="form-field">
+            <label for="email">Email</label>
+            <input type="email" id="email" name="email" required>
+        </div>
+
+        <div class="form-field">
+            <label for="comments">Comments</label>
+            <textarea id="comments" name="message" required></textarea>
+        </div>
+
+        <input type="hidden" name="_subject" value="New message from your portfolio">
+
+        <button type="submit" class="submit-button">Submit</button>
+    </form>
+
+</section>
+
 
 </body>
 </html>
